@@ -2,7 +2,7 @@
 
 TEST URL = POCO webUI (https://ecommerce-playground.lambdatest.io/)
 
-This test automation covers important test scenario for a mobile compatible WAP e-commerce website. 
+This test automation covers important test scenarios for a mobile compatible WAP e-commerce website. 
 This includes end-to-end functionality testing, mobile compatibility (mobile emulator), security testing, verify unexpected pop-up. 
 <br>Test cases 
   * Functionality testing (E2E)
