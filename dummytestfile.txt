@@ -1,1 +1,21 @@
-dummy file
+WAP
+Pre-requisite:
+- The test must be run using the Mobile emulator from Google Chrome - DONE
+- Selenium (python) must be used for this test case. - DONE
+- Create minimum 3 automated test cases for the following website https://ecommerce-playground.lambdatest.io/
+	test_if_browser_open_in_mobile_mode 
+		
+	test_User_Registration_test
+	test_LoginUser_with_proper_user_credential_test
+	test_Verify_that_registered_user_can_perform_Complete_Checkout_Process
+	test_handling_popup_notification
+		- This test verify unexpected popups 
+	test_transactionpage_is_avalable_for_guessUser
+		- negative test
+
+description of the structure used in the repository
+	
+NOTES:
+Handle any unexpected popup.
+Use Pytest as a test Runner
+(optional) Use allure as a test Reported
