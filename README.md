@@ -12,9 +12,9 @@ This includes end-to-end functionality testing, mobile compatibility (mobile emu
   * Mobile compatibility (runs in mobile size browser)
 	  * test_if_browser_open_in_mobile_mode
   * Verify unexpected pop-up
-          * test_handling_popup_notification
-  * Security test ( verify if the guest user cannot view transaction history)
-         * test_transactionpage_is_avalable_for_guessUser
+     <br> * test_handling_popup_notification
+  * Security test ( verify if a guest user cannot view transaction history)
+     <br> * test_transactionpage_is_avalable_for_guessUser
 		 
  - I used page object for organization of functions and objects. Also to make them reusable.
   folder structure:
@@ -25,7 +25,7 @@ This includes end-to-end functionality testing, mobile compatibility (mobile emu
       - Test Results - pytest.html
 
 note: 
-	- This script is working on full mobile screen (as per yesterday). however got some issue with my main desktop so I need to switch to vbox. unfortunately the vbox image has fixed resolution so the execution demo looks big (low resolution).
+	- This script is working on full mobile screen on my machine (as per yesterday). However got some issue with my main desktop so I need to switch to vbox to record the video. unfortunately the vbox image has fixed resolution so the execution demo looks big (low resolution).
 
 PYtest EXECUTION DEMO:
 
